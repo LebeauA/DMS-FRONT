@@ -1,0 +1,30 @@
+.title{
+    margin: 1em 0;
+    text-align: center;
+}
+.contentComment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexColCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datatableContent{
+    width: 60%;
+}
+.datatable{
+    width: 100%;
+}
+@media screen and (max-width : 1266px){
+    .datatableContent{
+        width: 100%;
+        margin-top : 5%;
+    }
+}
+.pourInfo{
+    background-color: blue;
+}
+
